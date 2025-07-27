@@ -33,12 +33,12 @@ It supports authentication using JWT, monitoring with Micrometer + Prometheus, a
 
 ---
 ## 🧩 Future Improvements
-Authenticate using username/password support
-PostgreSQL + Redis config
-Kubernetes manifests (k8s/)
-Rate limiting per user/tenant
-Role-based authorization
-Recipe engine via LLM
+- Authenticate using username/password support
+- PostgreSQL + Redis config
+- Kubernetes manifests (k8s/)
+- Rate limiting per user/tenant
+- Role-based authorization
+- Recipe engine via LLM
 
 ## 🚀 Getting Started
 
