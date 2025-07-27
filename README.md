@@ -32,6 +32,13 @@ It supports authentication using JWT, monitoring with Micrometer + Prometheus, a
 - Docker
 
 ---
+## 🧩 Future Improvements
+Authenticate using username/password support
+PostgreSQL + Redis config
+Kubernetes manifests (k8s/)
+Rate limiting per user/tenant
+Role-based authorization
+Recipe engine via LLM
 
 ## 🚀 Getting Started
 
@@ -46,8 +53,8 @@ It supports authentication using JWT, monitoring with Micrometer + Prometheus, a
 ## 🔧 Run Locally
 
 ###bash
-git clone https://github.com/YOUR_USERNAME/shopping-list-manager.git
-cd shopping-list-manager
+git clone https://github.com/maniks0188/aleph-alpha-coding-challenge.git
+cd aleph-alpha-coding-challenge
 ./mvnw clean spring-boot:run
 
 ---
@@ -62,6 +69,13 @@ Authorization: Bearer <your-token>
 
 ##🧪 Running Tests
 - ./mvnw test
+
+### **2. Run the Application Without Docker**
+Navigate to the github local folder and open command prompt
+> Run the below command
+> mvn clean package -DskipTests
+> application jar will get created in /target folder
+> run the jar using command - java -jar shopping-list-0.0.1-SNAPSHOT.jar
 
 ### **2. Run the Application Using Docker**
 
